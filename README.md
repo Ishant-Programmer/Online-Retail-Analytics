@@ -44,7 +44,7 @@ Online-Retail-Analytics/
 
 ## Dataset
 
-**Source:** [UCI Machine Learning Repository — Online Retail II](https://archive.uci.edu/dataset/502/online+retail+ii)
+**Source:** [UCI Machine Learning Repository – Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii)
 
 The dataset contains transactional records from a UK-based online retailer specializing in gift and homeware products. It covers customer purchases made between **December 2009 and December 2011**, making it suitable for sales analysis, customer analytics, and business intelligence tasks.
 
