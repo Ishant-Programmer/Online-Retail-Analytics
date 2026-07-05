@@ -199,7 +199,7 @@ The United Kingdom accounted for over **82%** of total revenue, making it the co
 
 ### Customer Segmentation (RFM)
 
-![Customer Segments](visualizations/customer_segments.png)
+![Customer Segments](visualizations/customer_segmentation.png)
 
 RFM analysis groups customers based on purchasing behavior, helping identify loyal customers and opportunities for targeted marketing.
 
