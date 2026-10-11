@@ -26,17 +26,22 @@ The insights generated from this analysis can support data-driven decision-makin
 Online-Retail-Analytics/
 │
 ├── data/
-│   ├── raw/                               # Original dataset
-│   └── cleaned/                           # Cleaned dataset used for analysis
+│   ├── raw/                         # Original dataset
+│   └── cleaned/                     # Cleaned dataset
 │
-├── visualizations/                        # Saved charts used in the README
+├── PowerBI/
+│   └── Online_Retail_Analytics.pbix  # Interactive Power BI report
+│
+├── screenshots/
+│   ├── executive-overview.png        # Sales performance dashboard
+│   └── customer-analysis.png         # RFM customer analytics dashboard
+│
+├── visualizations/                   # Python EDA charts
 │
 ├── 01_data_understanding_and_cleaning.ipynb
 ├── 02_exploratory_data_analysis.ipynb
 ├── 03_customer_analytics_rfm.ipynb
-│
-├── business_queries.sql                   # SQL analysis and business queries
-│
+├── business_queries.sql
 └── README.md
 ```
 
@@ -65,6 +70,7 @@ The dataset contains transactional records from a UK-based online retailer speci
 | Data Analysis | Pandas, NumPy |
 | Data Visualization | Matplotlib, Seaborn |
 | Database | MySQL (Joins, CTEs, Window Functions) |
+| Business Intelligence | Microsoft Power BI, Power Query, DAX |
 | Environment | Jupyter Notebook, VS Code |
 
 ---
@@ -121,6 +127,37 @@ Each customer was assigned a score from 1 to 4 for Recency, Frequency, and Monet
 | Others | Low activity across all metrics | General promotions, monitor behavior |
 
 Provided business recommendations for improving customer retention and engagement.
+
+---
+
+---
+
+## Power BI Dashboard
+
+Developed an interactive, two-page Power BI report to analyze sales performance and customer purchasing behavior using the Online Retail II dataset.
+
+### Page 1 — Executive Overview
+
+![Executive Overview](screenshots/executive-overview.png)
+
+- KPI cards: Total Revenue, Total Orders, Unique Customers, and Average Order Value.
+- Monthly revenue trend analysis.
+- Top 5 countries and Top 10 products by revenue.
+- Year and country slicers for interactive filtering.
+
+### Page 2 — Customer Analysis
+
+![Customer Analysis](screenshots/customer-analysis.png)
+
+- Customer count by RFM segment.
+- Revenue contribution by customer segment.
+- Recency versus monetary value scatter plot.
+- Average purchase frequency by segment.
+- Segment slicer for interactive exploration.
+
+### Business Value
+
+The dashboards combine sales performance monitoring with RFM-based customer segmentation to identify valuable customers, understand purchasing behavior, and support targeted retention strategies.
 
 ---
 
